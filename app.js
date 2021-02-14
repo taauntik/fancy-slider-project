@@ -17,7 +17,6 @@ const KEY = "15674931-a9d714b6e9d654524df198e00&q";
 const showImages = (images) => {
   imagesArea.style.display = "block";
   gallery.innerHTML = "";
-  console.log(images);
   // show gallery title
   galleryHeader.style.display = "flex";
   images.forEach((image) => {
